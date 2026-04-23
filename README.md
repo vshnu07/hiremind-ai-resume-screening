@@ -17,13 +17,11 @@ All evaluations are logged in a Google Sheet for tracking
 
 
 
+Workflow Preview
+<img src="workflow.png" alt="HireMind Workflow" width="100%"/>
+
 Tech Stack
 ToolPurposen8nWorkflow automationGroqLLM for profile analysis & HR evaluationGoogle DriveCV and JD storageGoogle SheetsJob role mapping & evaluation trackingSendGridCandidate email notificationSlackHiring team alert
-
-Workflow Preview
-
-Import workflow.json into your n8n instance to explore the full pipeline.
-
 
 Setup Instructions
 1. Prerequisites
@@ -35,10 +33,10 @@ SendGrid account
 Slack workspace
 
 2. Google Drive Structure
-├── jd/               # Upload your Job Description PDFs here
-├── cv/               # Candidate CVs will be auto-uploaded here
-├── Positions         # Google Sheet: Job Role ↔ JD file URL mapping
-└── Evaluations       # Google Sheet: Final AI evaluation results
+├── jd/ — Upload your Job Description PDFs here
+├── cv/ — Candidate CVs will be auto-uploaded here
+├── Positions — Google Sheet: Job Role ↔ JD file URL mapping
+└── Evaluations — Google Sheet: Final AI evaluation results
 3. Positions Sheet Format
 Job RoleJob Description LinkBackend Engineerhttps://drive.google.com/...Azure DevOps Leadhttps://drive.google.com/...
 4. Import Workflow
@@ -52,7 +50,8 @@ Run the workflow!
 
 Project Structure
 hiremind-ai-resume-screening/
-├── workflow.json       # n8n workflow export
+├── workflow.png — Workflow preview image
+├── workflow.json — n8n workflow export
 └── README.md
 
 Author
