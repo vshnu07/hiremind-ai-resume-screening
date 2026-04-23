@@ -18,7 +18,7 @@ All evaluations are logged in a Google Sheet for tracking
 
 
 Workflow Preview
-<img src="workflow.png" alt="HireMind Workflow" width="100%"/>
+<img src="Screenshot 2026-04-23 144119.png" alt="HireMind Workflow" width="100%"/>
 
 Tech Stack
 ToolPurposen8nWorkflow automationGroqLLM for profile analysis & HR evaluationGoogle DriveCV and JD storageGoogle SheetsJob role mapping & evaluation trackingSendGridCandidate email notificationSlackHiring team alert
